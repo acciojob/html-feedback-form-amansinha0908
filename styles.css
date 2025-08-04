@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+h1 {
+  text-align: center;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+.range-value {
+  font-size: 0.9em;
+  color: #555;
+}
+button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #444;
+}
